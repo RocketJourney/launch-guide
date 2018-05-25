@@ -14,6 +14,30 @@ export default () => (
     <style jsx>
       {
         `
+        @media (max-width: 575.98px) {
+          .white-text {
+            margin-left: 30px!important;
+            text-align: left!important;
+          }
+
+          .secondary-text {
+            margin-left: 30px!important;
+            text-align: left!important;
+          }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          .white-text {
+            margin-left: 30px!important;
+            text-align: left!important;
+          }
+
+          .secondary-tet {
+            margin-left: 30px!important;
+            text-align: left!important;
+          }
+        }
+
         #more-info {
           background-color: #2a2a2a;
           max-width: 1280px;

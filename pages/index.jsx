@@ -25,6 +25,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-social_media.jpg"
           modalTitle="Redes Sociales"
           modalExplanationText="Publica en redes sociales una imágen y un texto con el link de descarga."
+          file="/static/files/rocket-redes_sociales.jpg"
         />
         <LongModal
           launchButtonText="Whatsapp"
@@ -32,15 +33,37 @@ export default () => (
           thumbnail="/static/img/promo-thumb-chat.jpg"
           modalTitle="Whatsapp"
           modalExplanationText="Manda el link de descarga y esta imagen a clientes y grupos via chat."
+          file="/static/files/rocket-whatsapp.jpg"
         />
       </div>
     </ResouceSection>
 
     <ResouceSection sectionTitle="Para imprimir">
       <div className="digital-media-wrapper">
-        <ShortModal launchButtonText="Banners" id="banners" thumbnail="/static/img/promo-thumb-banners.jpg" modalTitle="Banners" />
-        <ShortModal launchButtonText="Posters" id="posters" thumbnail="/static/img/promo-thumb-poster.jpg" modalTitle="Posters" />
-        <ShortModal launchButtonText="Flyers" id="flyers" thumbnail="/static/img/promo-thumb-flyer.jpg" modalTitle="Flyers" />
+        <ShortModal
+          launchButtonText="Banners"
+          id="banners"
+          thumbnail="/static/img/promo-thumb-banners.jpg"
+          modalTitle="Banners"
+          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          file="/static/files/rocket-banner.zip"
+        />
+        <ShortModal
+          launchButtonText="Posters"
+          id="posters"
+          thumbnail="/static/img/promo-thumb-poster.jpg"
+          modalTitle="Posters"
+          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          file="/static/files/rocket-poster.zip"
+        />
+        <ShortModal
+          launchButtonText="Flyers"
+          id="flyers"
+          thumbnail="/static/img/promo-thumb-flyer.jpg"
+          modalTitle="Flyers"
+          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          file="/static/files/rocket-flyers.zip"
+        />
       </div>
     </ResouceSection>
 

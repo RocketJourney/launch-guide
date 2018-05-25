@@ -22,7 +22,7 @@ export default class LongModal extends Component {
   }
 
   render() {
-    const { id, thumbnail, launchButtonText, modalTitle, modalExplanationText } = this.props
+    const { id, thumbnail, launchButtonText, modalTitle, modalExplanationText, file } = this.props
     return (
       <>
       <button type="button" className="btn long-modal-button" data-toggle="modal" data-target={`#${id}`}>
@@ -48,7 +48,7 @@ export default class LongModal extends Component {
               <option value="en">Ingles</option>
             </select>
           </div> */}
-          <a href={thumbnail} download role="button" aria-pressed="true" className="open-btn btn btn-primary">Abrir imagen</a>
+          <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary">Abrir imagen</a>
           <p className="guide-text">Textos Guía</p>
           <p id={`${id}-content`} className="guide-text-content">
             Te invitamos a un reto de constancia. Ejercítate el mayor número de semanas seguidas que puedas.
@@ -119,11 +119,22 @@ export default class LongModal extends Component {
         border-color: #4a90e2!important;
         max-width: 281px;
         width: 100%;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px;
       }
 
       .long-modal-button {
         padding: 0;
         margin: 0 5px;
+        background: none;
       }
 
       .explanation-text {
