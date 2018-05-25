@@ -19,8 +19,20 @@ export default () => (
     <p className="normal-text">Utiliza el siguiente contenido para promocionar la app a tus clientes:</p>
     <ResouceSection sectionTitle="Para Medios Digitales">
       <div className="digital-media-wrapper">
-        <LongModal launchButtonText="Redes Sociales" id="redes" thumbnail="/static/img/promo-thumb-social_media.jpg" modalTitle="Redes Sociales" />
-        <LongModal launchButtonText="Whatsapp" id="whatsapp" thumbnail="/static/img/promo-thumb-chat.jpg" modalTitle="Whatsapp" />
+        <LongModal
+          launchButtonText="Redes Sociales"
+          id="redes"
+          thumbnail="/static/img/promo-thumb-social_media.jpg"
+          modalTitle="Redes Sociales"
+          modalExplanationText="Publica en redes sociales una imágen y un texto con el link de descarga."
+        />
+        <LongModal
+          launchButtonText="Whatsapp"
+          id="whatsapp"
+          thumbnail="/static/img/promo-thumb-chat.jpg"
+          modalTitle="Whatsapp"
+          modalExplanationText="Manda el link de descarga y esta imagen a clientes y grupos via chat."
+        />
       </div>
     </ResouceSection>
 
