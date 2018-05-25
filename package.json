@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export && mv -f ./out ./docs && cp ./CNAME ./docs && cp ./.nojekyll ./docs && git add . && git commit -am 'make build' && git push origin master"
+    "deploy": "rm -rf docs && next build && next export && mv -f ./out ./docs && cp ./CNAME ./docs && cp ./.nojekyll ./docs && git add . && git commit -am 'make build' && git push origin master"
   },
   "repository": {
     "type": "git",
