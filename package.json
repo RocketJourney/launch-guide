@@ -1,0 +1,26 @@
+{
+  "name": "launch-guide",
+  "version": "1.0.0",
+  "description": "Launch guide static site by rocketjourney",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketJourney/launch-guide.git"
+  },
+  "author": "@gmora08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RocketJourney/launch-guide/issues"
+  },
+  "homepage": "https://github.com/RocketJourney/launch-guide#readme",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
