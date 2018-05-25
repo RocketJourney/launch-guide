@@ -48,7 +48,8 @@ export default class LongModal extends Component {
               <option value="en">Ingles</option>
             </select>
           </div> */}
-          <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary">Abrir imagen</a>
+          <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-md-none d-lg-none d-xl-none">Abrir imagen</a>
+          <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-sm-none d-md-block d-lg-block d-xl-block d-sm-none d-none">Descargar imagen</a>
           <p className="guide-text">Textos Guía</p>
           <p id={`${id}-content`} className="guide-text-content">
             Te invitamos a un reto de constancia. Ejercítate el mayor número de semanas seguidas que puedas.
@@ -190,7 +191,7 @@ export default class LongModal extends Component {
         line-height: normal;
         letter-spacing: normal;
         text-align: left;
-        margin: 0;
+        margin: 8px 0 0 0;
         color: #1a1a1a;
       }
 

@@ -37,6 +37,7 @@ export default ({ id, thumbnail, file, launchButtonText, modalTitle, modalExplan
         .mobile-text-indicator {
           border-radius: 8px;
           border: solid 1px #979797;
+          font-family: Montserrat;
           padding: 10px;
           font-size: 14px;
           margin-bottom: 20px;
@@ -104,7 +105,7 @@ export default ({ id, thumbnail, file, launchButtonText, modalTitle, modalExplan
           line-height: normal;
           letter-spacing: normal;
           text-align: left;
-          margin: 0;
+          margin: 8px 0 0 0;
           color: #1a1a1a;
         }
 
