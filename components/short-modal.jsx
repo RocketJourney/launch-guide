@@ -21,7 +21,7 @@ export default ({ id, thumbnail, file, launchButtonText, modalTitle, modalExplan
               {modalExplanationText}
             </p>
             <div className="mobile-text-indicator d-md-none d-lg-none d-xl-none">
-              Entra a launch.rocketjourney.com desde una computadora de escritorio para descargar este item.
+              Entra a guide.rocketjourney.com desde una computadora de escritorio para descargar este item.
             </div>
             <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-sm-none d-md-block d-lg-block d-xl-block d-sm-none d-none">
               Descargar .ZIP
