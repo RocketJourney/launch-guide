@@ -24,7 +24,7 @@ export default () => (
           id="redes"
           thumbnail="/static/img/promo-thumb-social_media.jpg"
           modalTitle="Redes Sociales"
-          modalExplanationText="Publica en redes sociales una imágen y un texto con el link de descarga."
+          modalExplanationText="Publica en redes sociales una imagen y un texto con el link de descarga."
           file="/static/files/rocket-redes_sociales.jpg"
         />
         <LongModal
