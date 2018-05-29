@@ -50,7 +50,7 @@ export default class LongModal extends Component {
           </div> */}
           <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-md-none d-lg-none d-xl-none">Abrir imagen</a>
           <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-sm-none d-md-block d-lg-block d-xl-block d-sm-none d-none">Descargar imagen</a>
-          <p className="guide-text">Textos Guía</p>
+          <p className="guide-text">Ejemplo de Texto</p>
           <p id={`${id}-content`} className="guide-text-content">
             Te invitamos a un reto de constancia. Ejercítate el mayor número de semanas seguidas que puedas.
             <br />
@@ -59,7 +59,7 @@ export default class LongModal extends Component {
           </p>
 
           <span onClick={this.selectText} className="copy-text" role="button">
-            Puedes copiar y pega el texto
+            Puedes copiar y pegar el texto
           </span>
         </div>
       </div>

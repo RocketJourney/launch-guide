@@ -17,7 +17,7 @@ export default () => (
     <Navbar />
     <MoreInfo />
     <p className="normal-text">Utiliza el siguiente contenido para promocionar la app a tus clientes:</p>
-    <ResouceSection sectionTitle="Para Medios Digitales">
+    <ResouceSection sectionTitle="Medios Digitales">
       <div className="digital-media-wrapper">
         <LongModal
           launchButtonText="Redes Sociales"
@@ -32,20 +32,20 @@ export default () => (
           id="whatsapp"
           thumbnail="/static/img/promo-thumb-chat.jpg"
           modalTitle="Whatsapp"
-          modalExplanationText="Manda el link de descarga y esta imagen a clientes y grupos via chat."
+          modalExplanationText="Envía a tus clientes una imagen y un texto con el link de descarga."
           file="/static/files/rocket-whatsapp.jpg"
         />
       </div>
     </ResouceSection>
 
-    <ResouceSection sectionTitle="Para imprimir">
+    <ResouceSection sectionTitle="Medios Impresos">
       <div className="digital-media-wrapper">
         <ShortModal
           launchButtonText="Banners"
           id="banners"
           thumbnail="/static/img/promo-thumb-banners.jpg"
           modalTitle="Banners"
-          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          modalExplanationText="Imprime un banner y colócalo dentro de tu gimnasio."
           file="/static/files/rocket-banner.zip"
         />
         <ShortModal
@@ -53,7 +53,7 @@ export default () => (
           id="posters"
           thumbnail="/static/img/promo-thumb-poster.jpg"
           modalTitle="Posters"
-          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          modalExplanationText="Imprime posters y pégalos dentro de tu gimnasio."
           file="/static/files/rocket-poster.zip"
         />
         <ShortModal
@@ -61,7 +61,7 @@ export default () => (
           id="flyers"
           thumbnail="/static/img/promo-thumb-flyer.jpg"
           modalTitle="Flyers"
-          modalExplanationText="Imprime banners promocionales para poner en tu Gimnasio"
+          modalExplanationText="Imprime flyers y entrégalos a los clientes de tu gimnasio."
           file="/static/files/rocket-flyers.zip"
         />
       </div>
