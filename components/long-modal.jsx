@@ -103,6 +103,7 @@ export default class LongModal extends Component {
       }
 
       .guide-text {
+        font-family: Montserrat;
         font-size: 16px;
         font-weight: normal;
         font-style: normal;
