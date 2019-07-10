@@ -5,7 +5,7 @@ export default class LongModal extends Component {
   constructor(props){
   	super(props);
   	this.state = {
-      value: 'Te invitamos a un reto de constancia. Ejercítate el mayor número de semanas seguidas que puedas.\n Descarga la app del reto en: http://www.rocketjourney.com/',
+      value: 'Éntrale al reto de supervivencia. Ejercítate al menos 3 veces por semana para mantenerte.\n Descarga la app en: http://www.rocketjourney.com/',
       copied: false,
     };
     this.selectText = this.selectText.bind(this);
@@ -52,10 +52,10 @@ export default class LongModal extends Component {
           <a href={file} download role="button" aria-pressed="true" className="open-btn btn btn-primary d-sm-none d-md-block d-lg-block d-xl-block d-sm-none d-none">Descargar imagen</a>
           <p className="guide-text">Ejemplo de Texto</p>
           <p id={`${id}-content`} className="guide-text-content">
-            Te invitamos a un reto de constancia. Ejercítate el mayor número de semanas seguidas que puedas.
+            Éntrale al reto de supervivencia. Ejercítate al menos 3 veces por semana para mantenerte.
             <br />
             <br />
-            Descarga la app del reto en: http://www.rocketjourney.com/
+            Descarga la app en: http://www.rocketjourney.com/
           </p>
 
           <span onClick={this.selectText} className="copy-text" role="button">
