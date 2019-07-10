@@ -25,7 +25,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-social_media.jpg"
           modalTitle="Redes Sociales"
           modalExplanationText="Publica en redes sociales una imagen y un texto con el link de descarga."
-          file="/static/files/rocket-redes_sociales.jpg"
+          file="/static/files/rocket-redes_sociales_y_general-cuadrado.png"
         />
         <LongModal
           launchButtonText="Whatsapp"
@@ -33,7 +33,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-chat.jpg"
           modalTitle="Whatsapp"
           modalExplanationText="Envía a tus clientes una imagen y un texto con el link de descarga."
-          file="/static/files/rocket-whatsapp.jpg"
+          file="/static/files/rocket-whatsapp_y_emails-vertical.png"
         />
       </div>
     </ResouceSection>
@@ -46,7 +46,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-banners.jpg"
           modalTitle="Banners"
           modalExplanationText="Imprime un banner y colócalo dentro de tu gimnasio."
-          file="/static/files/rocket-banner.zip"
+          file="/static/files/rocket-banner-120x53cm.jpg"
         />
         <ShortModal
           launchButtonText="Posters"
@@ -54,7 +54,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-poster.jpg"
           modalTitle="Posters"
           modalExplanationText="Imprime posters y pégalos dentro de tu gimnasio."
-          file="/static/files/rocket-poster.zip"
+          file="/static/files/rocket-poster-tabloide.pdf"
         />
         <ShortModal
           launchButtonText="Flyers"
@@ -62,7 +62,7 @@ export default () => (
           thumbnail="/static/img/promo-thumb-flyer.jpg"
           modalTitle="Flyers"
           modalExplanationText="Imprime flyers y entrégalos a los clientes de tu gimnasio."
-          file="/static/files/rocket-flyers.zip"
+          file="/static/files/rocket-flyer-media_carta.pdf"
         />
       </div>
     </ResouceSection>
