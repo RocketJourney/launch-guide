@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/RocketJourney/launch-guide#readme",
   "dependencies": {
-    "next": "^6.1.2",
+    "next": "^9.3.2",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6"
